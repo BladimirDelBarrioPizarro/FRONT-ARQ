@@ -1,0 +1,9 @@
+#!/usr/bin/env groovy
+@Library('csc-core-pipeline@feature/P20118-61')
+@Library('csc-vars-pipeline@master@feature/P20118-61')
+@Library('csc-build-pipeline-react@feature/P20118-61')
+import org.atmira.ccarq.pipeline.*
+runPipeline {
+ bddTests = false
+ artifactType = "SERVICE"
+}

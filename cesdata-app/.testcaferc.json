@@ -1,0 +1,8 @@
+{
+  "src": "src/**/*.e2e.ts",
+  "screenshots": {
+    "path": "reports/e2e/screenshot/",
+    "takeOnFails": true,
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+  }
+}

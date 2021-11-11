@@ -1,0 +1,10 @@
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+
+import {{prepareName componentName}} from './{{prepareName componentName}}'
+
+test('...', () => {
+  render(<{{prepareName componentName}} />)
+
+  expect(screen.queryByTestId('WrongId')).toBeInTheDocument()
+})

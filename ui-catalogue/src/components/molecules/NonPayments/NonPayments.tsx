@@ -1,0 +1,253 @@
+import React from 'react'
+import { INonPayments } from './types'
+import {
+  makeStyles,
+  Grid
+} from '@material-ui/core'
+
+import {
+  ElementInput
+} from '../../atoms'
+import { Form, Formik, FormikProps } from 'formik'
+
+const useStyles = makeStyles({
+  divHeaderContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  divHeaderFlex: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    width: '100%',
+    marginTop: '20px'
+  },
+  labelHeader: {
+    fontFamily: 'NeverMind',
+    fontSize: '16px',
+    fontWeight: 'bold',
+    fontStretch: 'normal',
+    fontStyle: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#003b64',
+    marginLeft: '1rem'
+  },
+  divContainer: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    width: '100%'
+  },
+  divFlex: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'flex-start',
+    width: '95%',
+    marginRight: '6rem'
+  }
+})
+
+const NonPayments: React.FC<INonPayments> = ({
+  i18n,
+  data
+}) => {
+  const classes = useStyles()
+
+  return (
+    <div>
+
+      <div className={classes.divHeaderContainer}>
+        <div className={classes.divHeaderFlex}>
+          <span className={classes.labelHeader}>
+            {i18n['NonPayments:title']}
+          </span>
+        </div>
+      </div>
+
+      <Formik
+        initialValues={data}
+        onSubmit={(values, actions) => {
+          console.log(values) // eslint-disable-line
+        }}
+      >
+        {(props: FormikProps<any>) => (
+          <Form>
+            <div className={classes.divContainer}>
+
+              {[
+                {
+                  type: 'text',
+                  name: 'fechaefecto',
+                  label: i18n['NonPayments:fechaefecto'],
+                  value: data.fechaefecto,
+                  typeBis: 'text',
+                  nameBis: 'importepagado',
+                  labelBis: i18n['NonPayments:importepagado'],
+                  valueBis: data.importepagado
+                }
+              ].map(({ type, name, label, value, typeBis, nameBis, labelBis, valueBis }, index) => (
+                <div className={classes.divFlex} key={index}>
+                  <Grid container
+                    direction="row"
+                    justify="flex-start"
+                    alignItems="center">
+                    <ElementInput
+                      type={type}
+                      name={name}
+                      label={label}
+                      value={value}
+                      size='m'
+                    />
+                    <ElementInput
+                      type={typeBis}
+                      name={nameBis}
+                      label={labelBis}
+                      value={valueBis}
+                      size='m'
+                    />
+                  </Grid>
+                </div>
+              ))}
+              {[
+                {
+                  type: 'text',
+                  name: 'claveprotesta',
+                  label: i18n['NonPayments:claveprotesta'],
+                  value: data.claveprotesta,
+                  typeBis: 'text',
+                  nameBis: 'librador',
+                  labelBis: i18n['NonPayments:librador'],
+                  valueBis: data.librador
+                }
+              ].map(({ type, name, label, value, typeBis, nameBis, labelBis, valueBis }, index) => (
+                <div className={classes.divFlex} key={index}>
+                  <Grid container
+                    direction="row"
+                    justify="flex-start"
+                    alignItems="center">
+                    <ElementInput
+                      type={type}
+                      name={name}
+                      label={label}
+                      value={value}
+                      size='m'
+                    />
+                    <ElementInput
+                      type={typeBis}
+                      name={nameBis}
+                      label={labelBis}
+                      value={valueBis}
+                      size='m'
+                    />
+                  </Grid>
+                </div>
+              ))}
+
+              {[
+                {
+                  type: 'text',
+                  name: 'claveestado',
+                  label: i18n['NonPayments:claveestado'],
+                  value: data.claveestado,
+                  typeBis: 'text',
+                  nameBis: 'claveaceptado',
+                  labelBis: i18n['NonPayments:claveaceptado'],
+                  valueBis: data.claveaceptado
+                }
+              ].map(({ type, name, label, value, typeBis, nameBis, labelBis, valueBis }, index) => (
+                <div className={classes.divFlex} key={index}>
+                  <Grid container
+                    direction="row"
+                    justify="flex-start"
+                    alignItems="center">
+                    <ElementInput
+                      type={type}
+                      name={name}
+                      label={label}
+                      value={value}
+                      size='m'
+                    />
+                    <ElementInput
+                      type={typeBis}
+                      name={nameBis}
+                      label={labelBis}
+                      value={valueBis}
+                      size='m'
+                    />
+                  </Grid>
+                </div>
+              ))}
+
+              {[
+                {
+                  type: 'text',
+                  name: 'tipodocumento',
+                  label: i18n['NonPayments:tipodocumento'],
+                  value: data.tipodocumento,
+                  typeBis: 'text',
+                  nameBis: 'entidadinformante',
+                  labelBis: i18n['NonPayments:entidadinformante'],
+                  valueBis: data.entidadinformante
+                }
+              ].map(({ type, name, label, value, typeBis, nameBis, labelBis, valueBis }, index) => (
+                <div className={classes.divFlex} key={index}>
+                  <Grid container
+                    direction="row"
+                    justify="flex-start"
+                    alignItems="center">
+                    <ElementInput
+                      type={type}
+                      name={name}
+                      label={label}
+                      value={value}
+                      size='m'
+                    />
+                    <ElementInput
+                      type={typeBis}
+                      name={nameBis}
+                      label={labelBis}
+                      value={valueBis}
+                      size='m'
+                    />
+                  </Grid>
+                </div>
+              ))}
+
+              {[
+                {
+                  type: 'text',
+                  name: 'importepagadoactual',
+                  label: i18n['NonPayments:importepagadoactual'],
+                  value: data.importepagadoactual
+                }
+              ].map(({ type, name, label, value }, index) => (
+                <div className={classes.divFlex} key={index}>
+                  <Grid container
+                    direction="row"
+                    justify="flex-start"
+                    alignItems="center">
+                    <ElementInput
+                      type={type}
+                      name={name}
+                      label={label}
+                      value={value}
+                      size='m'
+                    />
+                  </Grid>
+                </div>
+              ))}
+
+            </div>
+          </Form>
+        )}
+      </Formik>
+
+    </div>
+  )
+}
+
+export { NonPayments }

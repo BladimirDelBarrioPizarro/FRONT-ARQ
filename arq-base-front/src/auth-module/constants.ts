@@ -1,0 +1,7 @@
+export const CAS_URL_LOGIN = 'https://test.cesce.grupo.loc/cas/login'
+export const URL_OAUTH = 'http://cesce-oauth-server-pre.cesce.grupo.loc/oauth/token?st='
+export const URL_REFRESH_TOKEN = 'http://cesce-oauth-server-pre.cesce.grupo.loc/oauth/token'
+export const URL_SERVICE_PARAM_NAME = 'service'
+export const URL_TICKET_PARAM_NAME = 'ticket'
+export const CLIENT_CREDENTIALS = 'Y2VzZGF0YTpOZ2QzM3VMc3lZRmZDaG9L'
+export const SERVICE_NAME = '&sn='

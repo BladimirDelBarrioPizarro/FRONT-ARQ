@@ -1,0 +1,14 @@
+import * as React from 'react'
+import { storiesOf } from '@storybook/react'
+
+import withThemeProvider from '../helpers/withThemeProvider'
+
+import {{prepareName componentName}} from '../components/{{componentType}}/{{prepareName componentName}}/{{prepareName componentName}}'
+
+const {{prepareName componentName}}Story = () => (<{{prepareName componentName}} />)
+
+export { {{prepareName componentName}}Story }
+
+storiesOf('Components|{{prepareName componentName}}', module)
+  .addDecorator(withThemeProvider)
+  .add('Story 1', () => <{{prepareName componentName}}Story />)

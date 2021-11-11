@@ -1,0 +1,5 @@
+{
+  "pageTitle": "HTML Report unit test",
+  "outputPath": "reports/unit/index.html",
+  "includeFailureMsg": true
+}

@@ -1,0 +1,72 @@
+import * as Faker from 'faker'
+
+const dataDefaultsAsnefEmpty = {
+  nombrerazonsocial: '',
+  identificadorpersona: '',
+  fechaalta: '',
+  fechaultimaactualizacion: '',
+  fechaultimaconsulta: '',
+  entidadultimaconsulta: '',
+  numoperaciones: '',
+  importeoperaciones: '',
+  importemensualcuotas: '',
+  importependiente: '',
+  numoperacionesincidencias: '',
+  numcuotasimpagadas: '',
+  importeimpagado: '',
+  peorsituacion: '',
+  fechapeorsituacion: '',
+  importemaximopagado: '',
+  fechaimpmaximopagado: '',
+  codigooperacion: '',
+  identificacionpersona: '',
+  entidadcedente: '',
+  producto: '',
+  naturaleza: '',
+  situacion: '',
+  fechainicio: '',
+  fechafinal: '',
+  numcuotas: '',
+  importecuotas: '',
+  importepagado: '',
+  fechaprimervencimiento: '',
+  fechaultimovencimiento: ''
+}
+const dataDefaultsAsnefFaker = {
+
+  nombrerazonsocial: Faker.random.words(),
+  identificadorpersona: Faker.random.words(),
+  fechaalta: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString(),
+  fechaultimaactualizacion: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString(),
+  fechaultimaconsulta: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString(),
+  entidadultimaconsulta: Faker.random.words(),
+  numoperaciones: Faker.random.words(),
+  importeoperaciones: Faker.random.words(),
+  importemensualcuotas: Faker.random.words(),
+  importependiente: Faker.random.words(),
+  numoperacionesincidencias: Faker.random.words(),
+  numcuotasimpagadas: Faker.random.words(),
+  importeimpagado: Faker.random.words(),
+  peorsituacion: Faker.random.words(),
+  fechapeorsituacion: Faker.random.words(),
+  importemaximopagado: Faker.random.words(),
+  fechaimpmaximopagado: Faker.random.words(),
+  codigooperacion: Faker.random.words(),
+  identificacionpersona: Faker.random.words(),
+  entidadcedente: Faker.random.words(),
+  producto: Faker.random.words(),
+  naturaleza: Faker.random.words(),
+  situacion: Faker.random.words(),
+  fechainicio: Faker.random.words(),
+  fechafinal: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString(),
+  numcuotas: Faker.random.words(),
+  importecuotas: Faker.random.words(),
+  importepagado: Faker.random.words(),
+  fechaprimervencimiento: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString(),
+  fechaultimovencimiento: new Date(Faker.date.between('2015-01-01', '2020-01-05')).toString()
+}
+
+export {
+  dataDefaultsAsnefEmpty,
+  dataDefaultsAsnefFaker
+}

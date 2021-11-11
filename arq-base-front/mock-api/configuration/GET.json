@@ -1,0 +1,21 @@
+{
+  "languages": {
+      "en": {
+          "default": "en-UK",
+          "availables": [
+              "en-UK",
+              "en-US"
+          ]
+      },
+      "default": {
+          "default": "es"
+      },
+      "es": {
+          "default": "es-ES",
+          "availables": [
+              "es-ES"
+          ]
+      }
+  },
+  "configRequestTime": "300000"
+}

@@ -1,0 +1,8040 @@
+{
+	"id": 0,
+	"name": "CESCE",
+	"kind": 0,
+	"flags": {},
+	"children": [
+		{
+			"id": 1,
+			"name": "\"communications-module/__test__/example-config-paths\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/__test__/example-config-paths.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "exampleConfigPaths",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 23,
+							"name": "auth",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 28,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "true"
+						},
+						{
+							"id": 20,
+							"name": "basepath",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 25,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"v1\""
+						},
+						{
+							"id": 19,
+							"name": "host",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 24,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"ejemplo.com\""
+						},
+						{
+							"id": 21,
+							"name": "protocol",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 26,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"http\""
+						},
+						{
+							"id": 22,
+							"name": "timeout",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 27,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "1000"
+						},
+						{
+							"id": 3,
+							"name": "paths",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 14,
+									"name": "login",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 15,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "communications-module/__test__/example-config-paths.ts",
+													"line": 16,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"login\""
+										},
+										{
+											"id": 16,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 17,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 18,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "communications-module/__test__/example-config-paths.ts",
+																	"line": 19,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																18
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "communications-module/__test__/example-config-paths.ts",
+															"line": 18,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														17
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/__test__/example-config-paths.ts",
+													"line": 17,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												15
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												16
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "communications-module/__test__/example-config-paths.ts",
+											"line": 15,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 4,
+									"name": "mascota",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 5,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "communications-module/__test__/example-config-paths.ts",
+													"line": 4,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"pet\""
+										},
+										{
+											"id": 6,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 12,
+													"name": "get",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/__test__/example-config-paths.ts",
+															"line": 12,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 13,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															}
+														}
+													}
+												},
+												{
+													"id": 7,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 9,
+															"name": "basepath",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "communications-module/__test__/example-config-paths.ts",
+																	"line": 8,
+																	"character": 18
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															},
+															"defaultValue": "\"v1\""
+														},
+														{
+															"id": 8,
+															"name": "host",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "communications-module/__test__/example-config-paths.ts",
+																	"line": 7,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															},
+															"defaultValue": "\"ejemplo.com\""
+														},
+														{
+															"id": 10,
+															"name": "protocol",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "communications-module/__test__/example-config-paths.ts",
+																	"line": 9,
+																	"character": 18
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															},
+															"defaultValue": "\"http\""
+														},
+														{
+															"id": 11,
+															"name": "timeout",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true
+															},
+															"sources": [
+																{
+																	"fileName": "communications-module/__test__/example-config-paths.ts",
+																	"line": 10,
+																	"character": 17
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															},
+															"defaultValue": "1000"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																9,
+																8,
+																10,
+																11
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "communications-module/__test__/example-config-paths.ts",
+															"line": 6,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														12
+													]
+												},
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														7
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/__test__/example-config-paths.ts",
+													"line": 5,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												5
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												6
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "communications-module/__test__/example-config-paths.ts",
+											"line": 3,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										14,
+										4
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/example-config-paths.ts",
+									"line": 2,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								23,
+								20,
+								19,
+								21,
+								22
+							]
+						},
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								3
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/__test__/example-config-paths.ts",
+							"line": 1,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/__test__/example-config-paths.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 54,
+			"name": "\"communications-module/__test__/extract-paths.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/__test__/extract-paths.test.ts",
+			"sources": [
+				{
+					"fileName": "communications-module/__test__/extract-paths.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 55,
+			"name": "\"communications-module/__test__/extract-verbs.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/__test__/extract-verbs.test.ts",
+			"children": [
+				{
+					"id": 56,
+					"name": "generalConfig",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 61,
+							"name": "auth",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/extract-verbs.test.ts",
+									"line": 18,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"defaultValue": "exampleConfigPaths.auth"
+						},
+						{
+							"id": 58,
+							"name": "basepath",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/extract-verbs.test.ts",
+									"line": 15,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "exampleConfigPaths.basepath"
+						},
+						{
+							"id": 57,
+							"name": "host",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/extract-verbs.test.ts",
+									"line": 14,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "exampleConfigPaths.host"
+						},
+						{
+							"id": 59,
+							"name": "protocol",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/extract-verbs.test.ts",
+									"line": 16,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "exampleConfigPaths.protocol"
+						},
+						{
+							"id": 60,
+							"name": "timeout",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "communications-module/__test__/extract-verbs.test.ts",
+									"line": 17,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "exampleConfigPaths.timeout"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								61,
+								58,
+								57,
+								59,
+								60
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/__test__/extract-verbs.test.ts",
+							"line": 13,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						56
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/__test__/extract-verbs.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 87,
+			"name": "\"communications-module/__test__/init.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/__test__/init.test.ts",
+			"sources": [
+				{
+					"fileName": "communications-module/__test__/init.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 88,
+			"name": "\"communications-module/__test__/utils.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/__test__/utils.test.ts",
+			"sources": [
+				{
+					"fileName": "communications-module/__test__/utils.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 24,
+			"name": "\"communications-module/axios\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/axios.ts",
+			"children": [
+				{
+					"id": 25,
+					"name": "HTTP",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "communications-module/axios.ts",
+							"line": 3,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "reference",
+						"name": "AxiosInstance"
+					},
+					"defaultValue": "axios.create({\n  withCredentials: true\n})"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						25
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/axios.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 46,
+			"name": "\"communications-module/extract-paths\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/extract-paths.ts",
+			"children": [
+				{
+					"id": 47,
+					"name": "extractPaths",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 48,
+							"name": "extractPaths",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 49,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 50,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 52,
+													"name": "generalConfig",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/extract-paths.ts",
+															"line": 5,
+															"character": 15
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 51,
+													"name": "paths",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/extract-paths.ts",
+															"line": 4,
+															"character": 7
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														52,
+														51
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/extract-paths.ts",
+													"line": 3,
+													"character": 22
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 53,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									}
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/extract-paths.ts",
+							"line": 3,
+							"character": 18
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						47
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/extract-paths.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "\"communications-module/extract-verbs\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/extract-verbs.ts",
+			"children": [
+				{
+					"id": 38,
+					"name": "extractVerbs",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 39,
+							"name": "extractVerbs",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 40,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 41,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 44,
+													"name": "generalConfig",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/extract-verbs.ts",
+															"line": 4,
+															"character": 54
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 42,
+													"name": "pathName",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/extract-verbs.ts",
+															"line": 4,
+															"character": 32
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 43,
+													"name": "verbs",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/extract-verbs.ts",
+															"line": 4,
+															"character": 39
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														44,
+														42,
+														43
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/extract-verbs.ts",
+													"line": 4,
+													"character": 22
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 45,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									}
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/extract-verbs.ts",
+							"line": 4,
+							"character": 18
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						38
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/extract-verbs.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 89,
+			"name": "\"communications-module/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/index.ts",
+			"sources": [
+				{
+					"fileName": "communications-module/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 62,
+			"name": "\"communications-module/init\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/init.ts",
+			"children": [
+				{
+					"id": 63,
+					"name": "callType",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 68,
+							"name": "__call",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 69,
+									"name": "any",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"name": "AxiosResponse"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 64,
+							"name": "api",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "communications-module/init.ts",
+									"line": 9,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								64
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/init.ts",
+							"line": 8,
+							"character": 25
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reflection",
+							"declaration": {
+								"id": 65,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {
+									"isExported": true
+								},
+								"signatures": [
+									{
+										"id": 66,
+										"name": "__call",
+										"kind": 4096,
+										"kindString": "Call signature",
+										"flags": {
+											"isExported": true
+										},
+										"parameters": [
+											{
+												"id": 67,
+												"name": "any",
+												"kind": 32768,
+												"kindString": "Parameter",
+												"flags": {
+													"isExported": true
+												},
+												"type": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											}
+										],
+										"type": {
+											"type": "reference",
+											"typeArguments": [
+												{
+													"type": "reference",
+													"name": "AxiosResponse"
+												}
+											],
+											"name": "Promise"
+										}
+									}
+								],
+								"sources": [
+									{
+										"fileName": "communications-module/init.ts",
+										"line": 8,
+										"character": 33
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 70,
+					"name": "callTypeFunc",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "communications-module/init.ts",
+							"line": 7,
+							"character": 17
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 71,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 72,
+									"name": "__call",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 73,
+											"name": "any",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "AxiosResponse"
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "communications-module/init.ts",
+									"line": 7,
+									"character": 19
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 74,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 75,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 76,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 77,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 81,
+													"name": "basepath",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 15,
+															"character": 10
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "\"\""
+												},
+												{
+													"id": 80,
+													"name": "host",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 14,
+															"character": 6
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "location.hostname"
+												},
+												{
+													"id": 78,
+													"name": "paths",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 13,
+															"character": 7
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 79,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															}
+														}
+													}
+												},
+												{
+													"id": 82,
+													"name": "protocol",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 16,
+															"character": 10
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "location.protocol.replace(':', '')"
+												},
+												{
+													"id": 83,
+													"name": "timeout",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 17,
+															"character": 9
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "number"
+													},
+													"defaultValue": "0"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														81,
+														80,
+														78,
+														82,
+														83
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/init.ts",
+													"line": 12,
+													"character": 20
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 84,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 85,
+													"name": "call",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 40,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 63,
+														"name": "callType"
+													}
+												},
+												{
+													"id": 86,
+													"name": "normalizePath",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "communications-module/init.ts",
+															"line": 41,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 27,
+														"name": "normalizePath"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														85,
+														86
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/init.ts",
+							"line": 12,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						63
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						70
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						74
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/init.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 26,
+			"name": "\"communications-module/utils\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/communications-module/utils.ts",
+			"children": [
+				{
+					"id": 30,
+					"name": "composeUrl",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 31,
+							"name": "composeUrl",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 32,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 33,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 36,
+													"name": "basepath",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/utils.ts",
+															"line": 5,
+															"character": 46
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "\"\""
+												},
+												{
+													"id": 35,
+													"name": "host",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/utils.ts",
+															"line": 5,
+															"character": 36
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 34,
+													"name": "protocol",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "communications-module/utils.ts",
+															"line": 5,
+															"character": 30
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														36,
+														35,
+														34
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "communications-module/utils.ts",
+													"line": 5,
+													"character": 20
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/utils.ts",
+							"line": 5,
+							"character": 16
+						}
+					]
+				},
+				{
+					"id": 27,
+					"name": "normalizePath",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 28,
+							"name": "normalizePath",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 29,
+									"name": "path",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "communications-module/utils.ts",
+							"line": 1,
+							"character": 19
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						30,
+						27
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "communications-module/utils.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 99,
+			"name": "\"configuration-module/__test__/config.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/configuration-module/__test__/config.test.ts",
+			"children": [
+				{
+					"id": 103,
+					"name": "requestConfig",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 104,
+							"name": "requestConfig",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 105,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 106,
+											"name": "configuration",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 107,
+													"name": "configRequestTime",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "configuration-module/__test__/config.test.ts",
+															"line": 5,
+															"character": 21
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "number"
+													},
+													"defaultValue": "3000"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														107
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "configuration-module/__test__/config.test.ts",
+													"line": 4,
+													"character": 15
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												106
+											]
+										}
+									]
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "configuration-module/__test__/config.test.ts",
+							"line": 9,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 100,
+					"name": "requestResponse",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 101,
+							"name": "configuration",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 102,
+									"name": "configRequestTime",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "configuration-module/__test__/config.test.ts",
+											"line": 5,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "3000"
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										102
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "configuration-module/__test__/config.test.ts",
+									"line": 4,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								101
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "configuration-module/__test__/config.test.ts",
+							"line": 3,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						103
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						100
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "configuration-module/__test__/config.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 90,
+			"name": "\"configuration-module/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/configuration-module/index.ts",
+			"children": [
+				{
+					"id": 91,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 92,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 93,
+									"name": "requestConfig",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 94,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 98,
+													"name": "cancelGetConfigByTime",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "configuration-module/index.ts",
+															"line": 51,
+															"character": 25
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "cancelGetConfigByTime"
+													}
+												},
+												{
+													"id": 97,
+													"name": "getConfig",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "configuration-module/index.ts",
+															"line": 50,
+															"character": 13
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "getConfig"
+													}
+												},
+												{
+													"id": 96,
+													"name": "getConfigByTime",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "configuration-module/index.ts",
+															"line": 49,
+															"character": 19
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "getConfigByTime"
+													}
+												},
+												{
+													"id": 95,
+													"name": "getRemoteConfig",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "configuration-module/index.ts",
+															"line": 48,
+															"character": 19
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "getRemoteConfig"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														98,
+														97,
+														96,
+														95
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "configuration-module/index.ts",
+							"line": 1,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						91
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "configuration-module/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 237,
+			"name": "\"facade/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/facade/index.ts",
+			"children": [
+				{
+					"id": 239,
+					"name": "call",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isLet": true
+					},
+					"sources": [
+						{
+							"fileName": "facade/index.ts",
+							"line": 5,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 240,
+					"name": "config",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isLet": true
+					},
+					"sources": [
+						{
+							"fileName": "facade/index.ts",
+							"line": 6,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 238,
+					"name": "log",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isLet": true
+					},
+					"sources": [
+						{
+							"fileName": "facade/index.ts",
+							"line": 4,
+							"character": 7
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					}
+				},
+				{
+					"id": 246,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 247,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 248,
+									"name": "initConfig",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 249,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 251,
+													"name": "call",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "facade/index.ts",
+															"line": 24,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 250,
+													"name": "config",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "facade/index.ts",
+															"line": 23,
+															"character": 10
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 257,
+													"name": "log",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "facade/index.ts",
+															"line": 31,
+															"character": 7
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 252,
+													"name": "lang",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 253,
+															"name": "availableLanguages",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "facade/index.ts",
+																	"line": 26,
+																	"character": 24
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															},
+															"defaultValue": "lang.availableLanguages"
+														},
+														{
+															"id": 256,
+															"name": "changeLanguage",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "facade/index.ts",
+																	"line": 29,
+																	"character": 20
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															},
+															"defaultValue": "lang.changeLanguage"
+														},
+														{
+															"id": 255,
+															"name": "currentLangCode",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "facade/index.ts",
+																	"line": 28,
+																	"character": 21
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															},
+															"defaultValue": "lang.currentLangCode"
+														},
+														{
+															"id": 254,
+															"name": "currentLanguage",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "facade/index.ts",
+																	"line": 27,
+																	"character": 21
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															},
+															"defaultValue": "lang.currentLanguage"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																253,
+																256,
+																255,
+																254
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "facade/index.ts",
+															"line": 25,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														251,
+														250,
+														257
+													]
+												},
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														252
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "facade/index.ts",
+							"line": 13,
+							"character": 10
+						}
+					]
+				},
+				{
+					"id": 241,
+					"name": "lang",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 242,
+							"name": "availableLanguages",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "facade/index.ts",
+									"line": 8,
+									"character": 20
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 245,
+							"name": "changeLanguage",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "facade/index.ts",
+									"line": 11,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 244,
+							"name": "currentLangCode",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "facade/index.ts",
+									"line": 10,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 243,
+							"name": "currentLanguage",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "facade/index.ts",
+									"line": 9,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								242,
+								245,
+								244,
+								243
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "facade/index.ts",
+							"line": 7,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						239,
+						240,
+						238
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						246
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						241
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "facade/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 271,
+			"name": "\"i18n-module/__test__/change-language.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/change-language.test.ts",
+			"children": [
+				{
+					"id": 274,
+					"name": "requestLang",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 275,
+							"name": "requestLang",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 276,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 277,
+													"name": "saludo",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "i18n-module/__test__/change-language.test.ts",
+															"line": 7,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "\"hello\""
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														277
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/change-language.test.ts",
+							"line": 10,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 272,
+					"name": "language",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 273,
+							"name": "saludo",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/change-language.test.ts",
+									"line": 7,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"hello\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								273
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/change-language.test.ts",
+							"line": 6,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 278,
+					"name": "store",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 279,
+							"name": "get",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 280,
+									"name": "get",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/change-language.test.ts",
+									"line": 13,
+									"character": 5
+								}
+							]
+						},
+						{
+							"id": 281,
+							"name": "put",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 282,
+									"name": "put",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/change-language.test.ts",
+									"line": 14,
+									"character": 5
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								279,
+								281
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/change-language.test.ts",
+							"line": 12,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						274
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						272,
+						278
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/change-language.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 283,
+			"name": "\"i18n-module/__test__/get-browser-language.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/get-browser-language.test.ts",
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/get-browser-language.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 284,
+			"name": "\"i18n-module/__test__/get-mostly-appropiate-default-lang-code.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/get-mostly-appropiate-default-lang-code.test.ts",
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/get-mostly-appropiate-default-lang-code.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 285,
+			"name": "\"i18n-module/__test__/init.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/init.test.ts",
+			"children": [
+				{
+					"id": 288,
+					"name": "requestLang",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 289,
+							"name": "requestLang",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 290,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 291,
+													"name": "saludo",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "i18n-module/__test__/init.test.ts",
+															"line": 6,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "\"hello\""
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														291
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/init.test.ts",
+							"line": 9,
+							"character": 17
+						}
+					]
+				},
+				{
+					"id": 286,
+					"name": "language",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 287,
+							"name": "saludo",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/init.test.ts",
+									"line": 6,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"hello\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								287
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/init.test.ts",
+							"line": 5,
+							"character": 14
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 292,
+					"name": "store",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 293,
+							"name": "get",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 294,
+									"name": "get",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/init.test.ts",
+									"line": 12,
+									"character": 5
+								}
+							]
+						},
+						{
+							"id": 295,
+							"name": "put",
+							"kind": 64,
+							"kindString": "Function",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 296,
+									"name": "put",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/__test__/init.test.ts",
+									"line": 13,
+									"character": 5
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Functions",
+							"kind": 64,
+							"children": [
+								293,
+								295
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/__test__/init.test.ts",
+							"line": 11,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						288
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						286,
+						292
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/init.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 297,
+			"name": "\"i18n-module/__test__/inner-store.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/inner-store.test.ts",
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/inner-store.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 298,
+			"name": "\"i18n-module/__test__/store-plugin-localstorage.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/__test__/store-plugin-localstorage.test.ts",
+			"sources": [
+				{
+					"fileName": "i18n-module/__test__/store-plugin-localstorage.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 169,
+			"name": "\"i18n-module/change-language\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/change-language.ts",
+			"children": [
+				{
+					"id": 170,
+					"name": "changeLanguage",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 171,
+							"name": "changeLanguage",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 172,
+									"name": "newLangCode",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "any"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/change-language.ts",
+							"line": 4,
+							"character": 20
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						170
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/change-language.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 258,
+			"name": "\"i18n-module/example-config-lang\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/example-config-lang.ts",
+			"children": [
+				{
+					"id": 259,
+					"name": "availableLanguages",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 266,
+							"name": "ar",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 268,
+									"name": "availables",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 12,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"defaultValue": "['ar']"
+								},
+								{
+									"id": 267,
+									"name": "default",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 11,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"ar\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										268,
+										267
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/example-config-lang.ts",
+									"line": 10,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 269,
+							"name": "default",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 270,
+									"name": "default",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 15,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"es\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										270
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/example-config-lang.ts",
+									"line": 14,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 263,
+							"name": "en",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 265,
+									"name": "availables",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 8,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"defaultValue": "['en-UK', 'en-US']"
+								},
+								{
+									"id": 264,
+									"name": "default",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 7,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"en-UK\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										265,
+										264
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/example-config-lang.ts",
+									"line": 6,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 260,
+							"name": "es",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {
+								"isExported": true
+							},
+							"children": [
+								{
+									"id": 262,
+									"name": "availables",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 4,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									},
+									"defaultValue": "['es-ES', 'es-AR']"
+								},
+								{
+									"id": 261,
+									"name": "default",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isExported": true
+									},
+									"sources": [
+										{
+											"fileName": "i18n-module/example-config-lang.ts",
+											"line": 3,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"es-ES\""
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										262,
+										261
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/example-config-lang.ts",
+									"line": 2,
+									"character": 4
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								266,
+								269,
+								263,
+								260
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/example-config-lang.ts",
+							"line": 1,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						259
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/example-config-lang.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 124,
+			"name": "\"i18n-module/get-browser-language\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/get-browser-language.ts",
+			"children": [
+				{
+					"id": 125,
+					"name": "getBrowserLanguage",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 126,
+							"name": "getBrowserLanguage",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/get-browser-language.ts",
+							"line": 1,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						125
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/get-browser-language.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 108,
+			"name": "\"i18n-module/get-mostly-appropiate-default-lang-code\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/get-mostly-appropiate-default-lang-code.ts",
+			"children": [
+				{
+					"id": 109,
+					"name": "matchObj",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"indexSignature": [
+						{
+							"id": 110,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 111,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 112,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 114,
+											"name": "availables",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isOptional": true
+											},
+											"sources": [
+												{
+													"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+													"line": 4,
+													"character": 14
+												}
+											],
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										},
+										{
+											"id": 113,
+											"name": "default",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+													"line": 3,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												114,
+												113
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+											"line": 2,
+											"character": 16
+										}
+									]
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+							"line": 1,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 115,
+					"name": "t",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+							"line": 7,
+							"character": 6
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 116,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 117,
+									"name": "__call",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 118,
+											"name": "userLang",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 119,
+											"name": "availableLanguages",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 109,
+												"name": "matchObj"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+									"line": 7,
+									"character": 8
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 120,
+					"name": "getMostlyAppropiateLangCode",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 121,
+							"name": "getMostlyAppropiateLangCode",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 122,
+									"name": "userLang",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 123,
+									"name": "availableLanguages",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 109,
+										"name": "matchObj"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+							"line": 9,
+							"character": 33
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						109
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						115
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						120
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/get-mostly-appropiate-default-lang-code.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 173,
+			"name": "\"i18n-module/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/index.ts",
+			"children": [
+				{
+					"id": 174,
+					"name": "pluginLocalStorage",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 163
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						174
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 137,
+			"name": "\"i18n-module/init\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/init.ts",
+			"children": [
+				{
+					"id": 138,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 139,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 140,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 141,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 143,
+													"name": "availableLanguages",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "i18n-module/init.ts",
+															"line": 7,
+															"character": 20
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 142,
+													"name": "requestLang",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "i18n-module/init.ts",
+															"line": 6,
+															"character": 13
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 144,
+													"name": "store",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 145,
+															"name": "get",
+															"kind": 64,
+															"kindString": "Function",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 146,
+																	"name": "get",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "any"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "i18n-module/init.ts",
+																	"line": 9,
+																	"character": 7
+																}
+															]
+														},
+														{
+															"id": 147,
+															"name": "put",
+															"kind": 64,
+															"kindString": "Function",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 148,
+																	"name": "put",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"parameters": [
+																		{
+																			"id": 149,
+																			"name": "value",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "string"
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "any"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "i18n-module/init.ts",
+																	"line": 10,
+																	"character": 7
+																}
+															]
+														}
+													],
+													"groups": [
+														{
+															"title": "Functions",
+															"kind": 64,
+															"children": [
+																145,
+																147
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "i18n-module/init.ts",
+															"line": 8,
+															"character": 7
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														143,
+														142
+													]
+												},
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														144
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "i18n-module/init.ts",
+													"line": 5,
+													"character": 20
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 150,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 151,
+													"name": "langCode",
+													"kind": 64,
+													"kindString": "Function",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 152,
+															"name": "langCode",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "i18n-module/init.ts",
+															"line": 30,
+															"character": 12
+														}
+													]
+												},
+												{
+													"id": 153,
+													"name": "language",
+													"kind": 64,
+													"kindString": "Function",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 154,
+															"name": "language",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "i18n-module/init.ts",
+															"line": 31,
+															"character": 12
+														}
+													]
+												}
+											],
+											"groups": [
+												{
+													"title": "Functions",
+													"kind": 64,
+													"children": [
+														151,
+														153
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/init.ts",
+							"line": 5,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						138
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/init.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 127,
+			"name": "\"i18n-module/inner-store\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/inner-store.ts",
+			"children": [
+				{
+					"id": 128,
+					"name": "store",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "i18n-module/inner-store.ts",
+							"line": 1,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 129,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {}
+						}
+					}
+				},
+				{
+					"id": 134,
+					"name": "get",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 135,
+							"name": "get",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 136,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/inner-store.ts",
+							"line": 8,
+							"character": 9
+						}
+					]
+				},
+				{
+					"id": 130,
+					"name": "put",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 131,
+							"name": "put",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 132,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 133,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/inner-store.ts",
+							"line": 3,
+							"character": 9
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						128
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						134,
+						130
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/inner-store.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 155,
+			"name": "\"i18n-module/store-plugin-localstorage\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/i18n-module/store-plugin-localstorage.ts",
+			"children": [
+				{
+					"id": 163,
+					"name": "configure",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 164,
+							"name": "configure",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 165,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"defaultValue": "\"lang\""
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 166,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 167,
+											"name": "get",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "i18n-module/store-plugin-localstorage.ts",
+													"line": 13,
+													"character": 7
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "(Anonymous function)"
+											},
+											"defaultValue": "((id) => () => get(id))(id)"
+										},
+										{
+											"id": 168,
+											"name": "put",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "i18n-module/store-plugin-localstorage.ts",
+													"line": 14,
+													"character": 7
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "(Anonymous function)"
+											},
+											"defaultValue": "((id) => (value) => put(id, value))(id)"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												167,
+												168
+											]
+										}
+									]
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/store-plugin-localstorage.ts",
+							"line": 11,
+							"character": 15
+						}
+					]
+				},
+				{
+					"id": 156,
+					"name": "get",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 157,
+							"name": "get",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 158,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/store-plugin-localstorage.ts",
+							"line": 1,
+							"character": 9
+						}
+					]
+				},
+				{
+					"id": 159,
+					"name": "put",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 160,
+							"name": "put",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 161,
+									"name": "id",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 162,
+									"name": "value",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "i18n-module/store-plugin-localstorage.ts",
+							"line": 5,
+							"character": 9
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						163,
+						156,
+						159
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "i18n-module/store-plugin-localstorage.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 307,
+			"name": "\"mediator/__test__/apply-auth-flow.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/__test__/apply-auth-flow.test.ts",
+			"children": [
+				{
+					"id": 347,
+					"name": "endpointsMethod",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 365,
+							"name": "authenticate",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 366,
+									"name": "post",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 367,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 93,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												367
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 92,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										366
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 91,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 351,
+							"name": "configuration",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 352,
+									"name": "get",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 353,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 74,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												353
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 73,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										352
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 72,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 348,
+							"name": "languages",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 349,
+									"name": "get",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 350,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 69,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												350
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 68,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										349
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 67,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 359,
+							"name": "login",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 360,
+									"name": "post",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 361,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 83,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												361
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 82,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										360
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 81,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 362,
+							"name": "logout",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 363,
+									"name": "post",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 364,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 88,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												364
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 87,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										363
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 86,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 354,
+							"name": "pet",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 355,
+									"name": "get",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 78,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 356,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {}
+										}
+									}
+								},
+								{
+									"id": 357,
+									"name": "post",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 79,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 358,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {}
+										}
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										355,
+										357
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 77,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						},
+						{
+							"id": 368,
+							"name": "refresh",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 369,
+									"name": "post",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 370,
+											"name": "auth",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 98,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											},
+											"defaultValue": "false"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												370
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 97,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										369
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 96,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								365,
+								351,
+								348,
+								359,
+								362,
+								354,
+								368
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+							"line": 66,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 308,
+					"name": "mockObj",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 309,
+							"name": "paths",
+							"kind": 2097152,
+							"kindString": "Object literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 337,
+									"name": "authenticate",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 338,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 47,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"authenticate\""
+										},
+										{
+											"id": 339,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 340,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 341,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 50,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																341
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 49,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														340
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 48,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												338
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												339
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 46,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 315,
+									"name": "configuration",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 316,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 16,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"configuration\""
+										},
+										{
+											"id": 317,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 318,
+													"name": "get",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 319,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 19,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																319
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 18,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														318
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 17,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												316
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												317
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 15,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 310,
+									"name": "languages",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 311,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 7,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"languages\""
+										},
+										{
+											"id": 312,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 313,
+													"name": "get",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 314,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 10,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																314
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 9,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														313
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 8,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												311
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												312
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 6,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 327,
+									"name": "login",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 328,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 31,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"login\""
+										},
+										{
+											"id": 329,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 330,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 331,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 34,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																331
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 33,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														330
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 32,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												328
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												329
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 30,
+											"character": 9
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 332,
+									"name": "logout",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 333,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 39,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"logout\""
+										},
+										{
+											"id": 334,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 335,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 336,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 42,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																336
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 41,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														335
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 40,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												333
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												334
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 38,
+											"character": 10
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 320,
+									"name": "pet",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 321,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 24,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"pet\""
+										},
+										{
+											"id": 322,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 323,
+													"name": "get",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 26,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 324,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {}
+														}
+													}
+												},
+												{
+													"id": 325,
+													"name": "post",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 27,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 326,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {}
+														}
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														323,
+														325
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 25,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												321
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												322
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 23,
+											"character": 7
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								},
+								{
+									"id": 342,
+									"name": "refresh",
+									"kind": 2097152,
+									"kindString": "Object literal",
+									"flags": {},
+									"children": [
+										{
+											"id": 343,
+											"name": "path",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {},
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 55,
+													"character": 10
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											},
+											"defaultValue": "\"refresh\""
+										},
+										{
+											"id": 344,
+											"name": "verbs",
+											"kind": 2097152,
+											"kindString": "Object literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 345,
+													"name": "post",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 346,
+															"name": "auth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+																	"line": 58,
+																	"character": 14
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															},
+															"defaultValue": "false"
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																346
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+															"line": 57,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														345
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+													"line": 56,
+													"character": 11
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												343
+											]
+										},
+										{
+											"title": "Object literals",
+											"kind": 2097152,
+											"children": [
+												344
+											]
+										}
+									],
+									"sources": [
+										{
+											"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+											"line": 54,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Object literals",
+									"kind": 2097152,
+									"children": [
+										337,
+										315,
+										310,
+										327,
+										332,
+										320,
+										342
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+									"line": 5,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Object literals",
+							"kind": 2097152,
+							"children": [
+								309
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+							"line": 4,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						347,
+						308
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "mediator/__test__/apply-auth-flow.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 371,
+			"name": "\"mediator/__test__/dev-console-transport.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/__test__/dev-console-transport.test.ts",
+			"sources": [
+				{
+					"fileName": "mediator/__test__/dev-console-transport.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 299,
+			"name": "\"mediator/apply-auth-flow\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/apply-auth-flow.ts",
+			"children": [
+				{
+					"id": 300,
+					"name": "applyAuthFlow",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 301,
+							"name": "applyAuthFlow",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 302,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 303,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 306,
+													"name": "applyAuthFlowWrapper",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "mediator/apply-auth-flow.ts",
+															"line": 4,
+															"character": 22
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 304,
+													"name": "endpointsConfig",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "mediator/apply-auth-flow.ts",
+															"line": 2,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												},
+												{
+													"id": 305,
+													"name": "endpointsMethod",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "mediator/apply-auth-flow.ts",
+															"line": 3,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "any"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														306,
+														304,
+														305
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "mediator/apply-auth-flow.ts",
+													"line": 1,
+													"character": 23
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/apply-auth-flow.ts",
+							"line": 1,
+							"character": 19
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						300
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "mediator/apply-auth-flow.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 210,
+			"name": "\"mediator/dev-console-transport\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/dev-console-transport.ts",
+			"children": [
+				{
+					"id": 211,
+					"name": "devConsoleTransport",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 212,
+							"name": "devConsoleTransport",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 213,
+									"name": "ENV",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 214,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"children": [
+										{
+											"id": 217,
+											"name": "[levelsConsts.ERROR]",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "mediator/dev-console-transport.ts",
+													"line": 15,
+													"character": 22
+												}
+											],
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "(Anonymous function)"
+												}
+											},
+											"defaultValue": "[\n    (data) => {\n      if (ENV === environments.DEV || ENV === environments.DEV) console.error(data) // eslint-disable-line no-console\n    }\n  ]"
+										},
+										{
+											"id": 215,
+											"name": "[levelsConsts.INFO]",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "mediator/dev-console-transport.ts",
+													"line": 5,
+													"character": 21
+												}
+											],
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "(Anonymous function)"
+												}
+											},
+											"defaultValue": "[\n    (data) => {\n      if (ENV === environments.DEV || ENV === environments.DEV) console.info(data) // eslint-disable-line no-console\n    }\n  ]"
+										},
+										{
+											"id": 216,
+											"name": "[levelsConsts.WARNING]",
+											"kind": 32,
+											"kindString": "Variable",
+											"flags": {
+												"isExported": true
+											},
+											"sources": [
+												{
+													"fileName": "mediator/dev-console-transport.ts",
+													"line": 10,
+													"character": 24
+												}
+											],
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "(Anonymous function)"
+												}
+											},
+											"defaultValue": "[\n    (data) => {\n      if (ENV === environments.DEV || ENV === environments.DEV) console.warn(data) // eslint-disable-line no-console\n    }\n  ]"
+										}
+									],
+									"groups": [
+										{
+											"title": "Variables",
+											"kind": 32,
+											"children": [
+												217,
+												215,
+												216
+											]
+										}
+									]
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/dev-console-transport.ts",
+							"line": 4,
+							"character": 25
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						211
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "mediator/dev-console-transport.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 205,
+			"name": "\"mediator/environments\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/environments.ts",
+			"children": [
+				{
+					"id": 206,
+					"name": "environments",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 209,
+							"name": "DEV",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "mediator/environments.ts",
+									"line": 4,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"DEV\""
+						},
+						{
+							"id": 207,
+							"name": "PRE",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "mediator/environments.ts",
+									"line": 2,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"PRE\""
+						},
+						{
+							"id": 208,
+							"name": "PROD",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "mediator/environments.ts",
+									"line": 3,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"PROD\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								209,
+								207,
+								208
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/environments.ts",
+							"line": 1,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						206
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "mediator/environments.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 218,
+			"name": "\"mediator/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/mediator/index.ts",
+			"children": [
+				{
+					"id": 219,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 220,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 221,
+									"name": "arqConfig",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 222,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"children": [
+												{
+													"id": 223,
+													"name": "call",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "mediator/index.ts",
+															"line": 57,
+															"character": 16
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 63,
+														"name": "callType"
+													}
+												},
+												{
+													"id": 224,
+													"name": "configApi",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "mediator/index.ts",
+															"line": 58,
+															"character": 21
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 225,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 229,
+																	"name": "cancelGetConfigByTime",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "configuration-module/index.ts",
+																			"line": 51,
+																			"character": 25
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "cancelGetConfigByTime"
+																	}
+																},
+																{
+																	"id": 228,
+																	"name": "getConfig",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "configuration-module/index.ts",
+																			"line": 50,
+																			"character": 13
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "getConfig"
+																	}
+																},
+																{
+																	"id": 227,
+																	"name": "getConfigByTime",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "configuration-module/index.ts",
+																			"line": 49,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "getConfigByTime"
+																	}
+																},
+																{
+																	"id": 226,
+																	"name": "getRemoteConfig",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "configuration-module/index.ts",
+																			"line": 48,
+																			"character": 19
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "getRemoteConfig"
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		229,
+																		228,
+																		227,
+																		226
+																	]
+																}
+															]
+														}
+													}
+												},
+												{
+													"id": 232,
+													"name": "logger",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "mediator/index.ts",
+															"line": 63,
+															"character": 18
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 233,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 236,
+																	"name": "error",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "traceability-module/logger.ts",
+																			"line": 52,
+																			"character": 9
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "error"
+																	}
+																},
+																{
+																	"id": 234,
+																	"name": "info",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "traceability-module/logger.ts",
+																			"line": 50,
+																			"character": 8
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "info"
+																	}
+																},
+																{
+																	"id": 235,
+																	"name": "warning",
+																	"kind": 32,
+																	"kindString": "Variable",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "traceability-module/logger.ts",
+																			"line": 51,
+																			"character": 11
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"name": "warning"
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Variables",
+																	"kind": 32,
+																	"children": [
+																		236,
+																		234,
+																		235
+																	]
+																}
+															]
+														}
+													}
+												},
+												{
+													"id": 230,
+													"name": "i18n",
+													"kind": 2097152,
+													"kindString": "Object literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 231,
+															"name": "changeLanguage",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "mediator/index.ts",
+																	"line": 61,
+																	"character": 28
+																}
+															],
+															"type": {
+																"type": "reference",
+																"id": 170,
+																"name": "changeLanguage"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																231
+															]
+														}
+													],
+													"sources": [
+														{
+															"fileName": "mediator/index.ts",
+															"line": 59,
+															"character": 16
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "object"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														223,
+														224,
+														232
+													]
+												},
+												{
+													"title": "Object literals",
+													"kind": 2097152,
+													"children": [
+														230
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "mediator/index.ts",
+							"line": 8,
+							"character": 10
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						219
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "mediator/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 372,
+			"name": "\"traceability-module/__test__/logger.test\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/traceability-module/__test__/logger.test.ts",
+			"sources": [
+				{
+					"fileName": "traceability-module/__test__/logger.test.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 204,
+			"name": "\"traceability-module/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/traceability-module/index.ts",
+			"sources": [
+				{
+					"fileName": "traceability-module/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 175,
+			"name": "\"traceability-module/logger\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/home/atmira/src/CESCE_v3/arq-base-front/src/traceability-module/logger.ts",
+			"children": [
+				{
+					"id": 176,
+					"name": "transportType",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"indexSignature": [
+						{
+							"id": 177,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {},
+							"parameters": [
+								{
+									"id": 178,
+									"name": "key",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "any"
+								}
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 11,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 181,
+					"name": "ERROR",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 3,
+							"character": 11
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "ERROR"
+					},
+					"defaultValue": "\"ERROR\""
+				},
+				{
+					"id": 179,
+					"name": "INFO",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 1,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "INFO"
+					},
+					"defaultValue": "\"INFO\""
+				},
+				{
+					"id": 180,
+					"name": "WARNING",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 2,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "WARNING"
+					},
+					"defaultValue": "\"WARNING\""
+				},
+				{
+					"id": 190,
+					"name": "init",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 191,
+							"name": "init",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 192,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 193,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 194,
+													"name": "level",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "traceability-module/logger.ts",
+															"line": 22,
+															"character": 7
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													},
+													"defaultValue": "INFO"
+												},
+												{
+													"id": 195,
+													"name": "transport",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "traceability-module/logger.ts",
+															"line": 23,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 176,
+														"name": "transportType"
+													},
+													"defaultValue": "defaultTransport"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														194,
+														195
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "traceability-module/logger.ts",
+													"line": 21,
+													"character": 20
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reflection",
+										"declaration": {
+											"id": 196,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 199,
+													"name": "error",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "traceability-module/logger.ts",
+															"line": 52,
+															"character": 9
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "error"
+													}
+												},
+												{
+													"id": 197,
+													"name": "info",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "traceability-module/logger.ts",
+															"line": 50,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "info"
+													}
+												},
+												{
+													"id": 198,
+													"name": "warning",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "traceability-module/logger.ts",
+															"line": 51,
+															"character": 11
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "warning"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														199,
+														197,
+														198
+													]
+												}
+											]
+										}
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 21,
+							"character": 10
+						}
+					]
+				},
+				{
+					"id": 186,
+					"name": "defaultTransport",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 189,
+							"name": "[ERROR]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 18,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "undefined"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 187,
+							"name": "[INFO]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 16,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "undefined"
+								}
+							},
+							"defaultValue": "[]"
+						},
+						{
+							"id": 188,
+							"name": "[WARNING]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 17,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "intrinsic",
+									"name": "undefined"
+								}
+							},
+							"defaultValue": "[]"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								189,
+								187,
+								188
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 15,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 182,
+					"name": "levels",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 185,
+							"name": "[ERROR]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 8,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "0"
+						},
+						{
+							"id": 183,
+							"name": "[INFO]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 6,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "2"
+						},
+						{
+							"id": 184,
+							"name": "[WARNING]",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 7,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "1"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								185,
+								183,
+								184
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 5,
+							"character": 12
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				},
+				{
+					"id": 200,
+					"name": "levelsConsts",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 203,
+							"name": "ERROR",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 59,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 201,
+							"name": "INFO",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 57,
+									"character": 6
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 202,
+							"name": "WARNING",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "traceability-module/logger.ts",
+									"line": 58,
+									"character": 9
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								203,
+								201,
+								202
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "traceability-module/logger.ts",
+							"line": 56,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						176
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						181,
+						179,
+						180
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						190
+					]
+				},
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						186,
+						182,
+						200
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "traceability-module/logger.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1,
+				54,
+				55,
+				87,
+				88,
+				24,
+				46,
+				37,
+				89,
+				62,
+				26,
+				99,
+				90,
+				237,
+				271,
+				283,
+				284,
+				285,
+				297,
+				298,
+				169,
+				258,
+				124,
+				108,
+				173,
+				137,
+				127,
+				155,
+				307,
+				371,
+				299,
+				210,
+				205,
+				218,
+				372,
+				204,
+				175
+			]
+		}
+	]
+}
